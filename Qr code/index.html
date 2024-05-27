@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <p>Enter text or URL</p>
+        <input type="text" placeholder="Text or URL" id="qrText">
+
+        <div id="imgBox">
+            <img src="" id="qrImg">
+        </div>
+          <button onclick="Generator()">
+            Generate QR Code
+        </button>
+          <button onclick="download()">
+            download QR Code
+        </button>
+        <footer></footer>
+    </div>
+    <footer>
+
+        <p>&copy; 2024:- Developed by Jayant Gupta</p>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
